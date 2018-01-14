@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	// SUBMIT FORM
-	$("#login").submit(function(event) {
+	$("#adminLogin").submit(function(event) {
 		// Prevent the form from submitting via the browser.
 		event.preventDefault();
 	/*	if($("#username").val() == ""){
